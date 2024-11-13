@@ -9,7 +9,7 @@ model = AutoModelForCausalLM.from_pretrained(
 )
 tokenizer = AutoTokenizer.from_pretrained(model_name_or_path)
 
-prompt = "你是谁"
+prompt = "Qwen2Tokenizer有什么python包吗？"
 messages = [
     {"role": "system", "content": "You are a helpful assistant."},
     {"role": "user", "content": prompt}
